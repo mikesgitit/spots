@@ -1,11 +1,17 @@
+:root {
+  --color-background: #fcf5e5;
+  --color-text: #212121;
+}
+
 .page {
-  background-color: #fcf5e5;
+  background-color: var(--color-background);
   min-height: 100vh;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-  font-weight: 500;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .page__section {
-  max-width: 1200px;
+  max-width: var(--max-width-container);
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }

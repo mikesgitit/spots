@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 104;
+  height: 16;
+  padding: 40px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 70%;
+}

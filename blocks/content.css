@@ -1,3 +1,14 @@
+:root {
+  --spacing-standard: 16px;
+  --spacing-large: 32px;
+  --border-radius: 8px;
+  --max-width-container: 1280px;
+  --font-weight-medium: 500;
+}
+
 .content {
-  padding: 0 20px;
+  max-width: 1280px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
 }
