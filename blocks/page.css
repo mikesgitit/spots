@@ -12,6 +12,4 @@
 .page__section {
   max-width: var(--max-width-container);
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }

@@ -88,13 +88,15 @@
   opacity: 80%;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 710px) {
   .profile {
     flex-direction: column;
-    max-width: 282px;
+    width: min(288px, 100%);
     align-items: center;
     text-align: center;
     padding: 20px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
   }
 
   .profile__avatar {
