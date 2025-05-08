@@ -7,14 +7,8 @@
 }
 
 .content {
-  max-width: 1280px;
+  max-width: var(--max-width-container);
   padding-left: 40px;
   padding-right: 40px;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 710px) {
-  .content {
-    padding: 16px;
-  }
 }

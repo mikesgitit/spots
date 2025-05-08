@@ -7,7 +7,7 @@
   aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
 }
 
 .card__title {
@@ -35,24 +35,6 @@
   opacity: 100%;
 }
 
-@media screen and (max-width: 710px) {
-  .card {
-    max-width: 288px;
-    margin: 0 auto;
-  }
-
-  .card__title {
-    font-size: 16px;
-  }
-
-  .card__content {
-    width: 288px;
-    height: 18px;
-  }
-
-  .card__image {
-    max-width: 288px;
-    max-height: 288px;
-    margin-bottom: 12px;
-  }
+.card__like-btn:focus {
+  transform: scale(1.25);
 }

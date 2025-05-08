@@ -1,6 +1,11 @@
 :root {
-  --color-background: #fcf5e5;
+  --spacing-standard: 16px;
+  --spacing-large: 32px;
+  --border-radius: 8px;
+  --max-width-container: 1280px;
+  --font-weight-medium: 500;
   --color-text: #212121;
+  --color-background: #fcf5e5;
 }
 
 .page {
