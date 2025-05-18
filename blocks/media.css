@@ -52,11 +52,6 @@
     font-size: 16px;
   }
 
-  .card__content {
-    width: 288px;
-    height: 18px;
-  }
-
   .card__image {
     max-width: 288px;
     max-height: 288px;
@@ -65,5 +60,17 @@
 
   .content {
     padding: var(--spacing-standard);
+  }
+}
+
+@media screen and (min-width: 710px) {
+  .content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .cards__list {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }

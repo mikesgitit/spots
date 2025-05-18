@@ -8,7 +8,5 @@
 
 .content {
   max-width: var(--max-width-container);
-  padding-left: 40px;
-  padding-right: 40px;
   margin: 0 auto;
 }
