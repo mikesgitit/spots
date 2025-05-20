@@ -18,4 +18,4 @@ For this project I implemented a variety of new technologies and processes that 
 
 ## Screencast video
 
-[Drive]: https://drive.google.com/file/d/1NdonPCe-HooMo7P2SGplyxkZnsHl_ndT/view?usp=sharing
+[GoogleDrive] https://drive.google.com/file/d/1NdonPCe-HooMo7P2SGplyxkZnsHl_ndT/view?usp=sharing
